@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(82, 81, 81, 0.332);
+    margin-top: 40px;
+    border-radius: 50px;
+opacity: 0.9;
+}
+.container {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(82, 81, 81, 0.332);
+    margin-top: 40px;
+    border-radius: 50px;
+opacity: 0.9; */
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar {
+    display: flex;
+    gap: 30px;
+    
+}
+.navbar a {
+    text-decoration: none;
+    color:wheat;
+    font-size: 25px;
+    transition: color 0.3s;
+}
+.navbar a:hover {
+    color: #007BFF;
+}
+.login-button {
+    background-color: orange;
+    color:black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.login-button:hover {
+    background-color: #0056b3;
+}
+.heading-section{
+    margin-top: 120px;
+    text-align: center;
+}
+.heading-section h1{
+    color: white;
+    font-size: 70px;
+}
+.heading-section p{
+    font-size: 25px;
+    color: tan;
+}
+.item{
+border-radius: 50px;
+}
+.item img{
+    border-radius: 20px;
+    
+}
+.heading-section1{
+    margin-top: 100px;
+    text-align: center;
+}
+.heading-section1 h1{
+    color: white;
+    font-size: 70px;
+
+}
+.img-sec{
+    text-align: start;
+   
+}
+.img-sec h3{
+    font-size: 35px;
+    color: white;
+    margin-top: 100px;
+}
+.img-sec p{
+    font-size: 20px;
+    color: tan;
+    margin-top: 40px;
+}
+.icons a{
+    color: tan;
+}
